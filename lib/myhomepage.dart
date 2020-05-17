@@ -64,7 +64,6 @@ class _MyHomePageState extends State<MyHomePage> {
                         return Text('Nenhuma informação encontrada');
                       }
 
-                      // EnderecoModel model = snapshot.data;
                       EnderecoModel model = snapshot.data;
                       // return Text("Bairro: ${model.bairro}");
                       return Column(
